@@ -1,4 +1,5 @@
 # Creating your own sprites for use in Mapbox GL JS
+# This an example which is built off of the Mapbox GL JS example found [here](https://www.mapbox.com/mapbox-gl-js/example/animate-point-along-route/)
 
 Sprites cannot be added to code simply by pointing to a svg file.  Mapbox requires a specific json and png of sprites.  There is a tool that makes it quite simple to create this.
 
