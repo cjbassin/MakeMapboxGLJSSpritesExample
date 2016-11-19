@@ -29,3 +29,10 @@ $ sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 $ npm install -g spritezero-cli
 
 ```
+- Creating the icons
+- Create a folder in your current directory that has the svg icon you have created ( 'spritetry' )
+- Run spritezero with that folder as an input and a name for the output files ('outsprite')
+- I also added --retina to get the retina version
+```
+$ spritezero outsprite spritetry/ --retina
+```
