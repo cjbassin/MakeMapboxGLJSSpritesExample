@@ -77,7 +77,11 @@ map.addLayer({
         }
     });
 ```
-
+### Check it out
+fire up a local server
+python -m http.server for python3
+python -m SimpleHTTPServer for python2 
+and test out your html
 
 
 
